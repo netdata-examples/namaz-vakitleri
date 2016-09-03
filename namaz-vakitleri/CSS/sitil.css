@@ -1,0 +1,78 @@
+﻿body {
+    font-family: 'Segoe UI',Arial;
+    line-height: 12px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #AB7271;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #3A75D7;
+}
+
+#sagTarafIller .form-group {
+    margin-bottom: 10px;
+}
+
+#sagTarafIller .col-xs-6 {
+    padding-right: 0px;
+}
+
+.imgNamaz {
+    width: 380px;
+}
+
+#sagTarafIller a {
+    color: #AE0107;
+}
+
+#sagTarafIller li {
+    list-style: none;
+    line-height: 20px;
+}
+
+.panel-primary {
+    border-color: #b52828;
+}
+
+    .panel-primary > .panel-heading {
+        color: #fff;
+        background-color: #b52828;
+        border-color: #b52828;
+    }
+
+@media screen and (max-width:767px) {
+    .navbar {
+        margin-bottom: 5px;
+    }
+
+    .imgNamaz {
+        width: 200px;
+    }
+
+    h1 {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .form-group {
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        margin-bottom: 35px;
+    }
+}
